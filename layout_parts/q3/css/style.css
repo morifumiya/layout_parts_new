@@ -3,28 +3,29 @@
 /* 回答はここに書いてね */
 
 
-table {
+.main {
 	table-layout: fixed;
 	width: 100%;
 }
 
-table th, table td {
+.main th, .main td {
 	border: solid #dedede 1px;
 	padding: 10px;
 	text-align: center;
 }
 
-tbody tr:nth-child(odd) {
+.main tbody tr:nth-child(even) {
 	background-color: #ecf1f2;
 }
 
-table th {
+.main th {
 	background-color: #2244aa;
-	color: white;
+	color: #fff;
+	line-height: 26px;
 
 }
 
-tfoot tr:last-child {
+.main tfoot tr:last-child {
 	border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */

@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-body {
-	margin: 0 auto;
-}
 
 .clearfix:after {
 	display: block;

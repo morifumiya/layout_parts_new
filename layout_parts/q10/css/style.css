@@ -1,5 +1,57 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	padding: 20px;
+	border: 5px solid #222;
+	border-radius: 30px;
+	font-size: 16px;
+	line-height: 16px;
+
+}
+
+.sankaku {
+	width: 0;
+	height: 0;
+	border: 80px solid transparent;
+	border-top: 80px solid #222;
+}
+
+.sankaku2 {
+	width: 0;
+	height: 0;
+	border: 80px solid transparent;
+	border-top: 80px solid white;
+}
+
+.content::before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 20px;
+	bottom: -15px;
+	border-right: solid 5px #222;
+	border-bottom: solid 5px #222;
+	border-left: solid 5px #222;
+}
+
+.content::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	left: 20px;
+	bottom;: -12px;
+	border-right: solid 5px #222;
+	border-bottom: solid 5px #222;
+	border-left: solid 5px #222;
+}
+
 
 /* 回答はここに書いてね */

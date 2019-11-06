@@ -25,21 +25,28 @@
 
 /* Q6-2 */
 
-.q6.q6--around {
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.table_cell_p {
+	background-color: white;
+	padding: 10px;
+	display: inline-block;
+}
+
+.body {
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
-
-.table {
-	display: table-cell;
-	background-color: #fff;
-	vertical-align: middle;
-	padding: 10px;
-}
-
 
 .flex {
 	display: flex;
@@ -50,23 +57,28 @@
 
 /* Q6-3 */
 
-.q6__box.is-stable {
+.q6__box.is-stable.stable {
 	position: relative;
 }
 
-.q6__box__inner {
-	position: fixed;
+.q6__box__inner.bule_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
 
-.q6__box.is-flexible {
+.q6__box.is-flexible.flexible{
 	position: relative;
 }
 
-.q6__box__inner {
+.blue_right {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform : translate(-50%, -50%)	
+	transform : translate(-50%, -50%)
 }
 
 /* 回答はここに書いてね */

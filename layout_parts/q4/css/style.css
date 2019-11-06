@@ -7,7 +7,7 @@
 	clear: both;
 }
 
-.q4 {
+.content {
 	padding: 20px;
 	box-sizing: border-box;
 }
@@ -20,7 +20,7 @@
 	margin-bottom: 20px;
 }
 
-.block:nth-child(2) {
+.block:last-child {
 	margin-bottom: 0;
 }
 
@@ -30,31 +30,31 @@
 }
 
 
-.box1 {
+.pink {
 	width: 100px;
 	background-color: #fdc8b8;
 
 }
 
-.box2 {
+.purple {
 	background-color: #e0abd9;
 
 }
 
-.box3 {
+.blue {
 	width: 100px;
 	background-color: #b6d8ed;
 }
 
-.box4 {
+.yellow {
 	background-color: #e5d32e;
 }
 
-.box5 {
+.red {
 	background-color: #ec8f9a;
 }
 
-.box6 {
+.green {
 	width: 500px;
 	background-color: #8fdcad;
 }

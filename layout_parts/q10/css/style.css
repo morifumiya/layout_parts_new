@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content {
+.balloon {
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -11,47 +11,33 @@
 	border-radius: 30px;
 	font-size: 16px;
 	line-height: 16px;
-
 }
 
-.sankaku {
-	width: 0;
-	height: 0;
-	border: 80px solid transparent;
-	border-top: 80px solid #222;
-}
-
-.sankaku2 {
-	width: 0;
-	height: 0;
-	border: 80px solid transparent;
-	border-top: 80px solid white;
-}
-
-.content::before {
+.balloon:before, .balloon:after {
 	content: "";
 	position: absolute;
 	width: 0;
 	height: 0;
-	left: 20px;
-	bottom: -15px;
-	border-right: solid 5px #222;
-	border-bottom: solid 5px #222;
-	border-left: solid 5px #222;
+	left: 0;
+	bottom: 0;
+	border: 20px solid transparent;
 }
 
-.content::after {
-	content: "";
-	position: absolute;
-	display: block;
-	width: 0;
-	height: 0;
-	left: 20px;
-	bottom;: -12px;
-	border-right: solid 5px #222;
-	border-bottom: solid 5px #222;
-	border-left: solid 5px #222;
+.balloon:before {
+	bottom: -45px;
+	left: 30px;
+	border-top-color: #222;
 }
+
+.balloon:after {
+	bottom: -38px;
+	left: 30px;
+  border-top-color: #FFF;
+}
+
+
+
+
 
 
 /* 回答はここに書いてね */

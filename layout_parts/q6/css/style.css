@@ -41,15 +41,14 @@
 	display: inline-block;
 }
 
-.body {
+.flex {
 	text-align: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.flex {
-	display: flex;
+.flex_text {
 	background-color: #fff;
 	vertical-align: middle;
 	padding: 10px;

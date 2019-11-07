@@ -43,7 +43,7 @@
 	font-size: 0;
 }
 
-.inline_left {
+.inline_block_box {
 	display: inline-block;
 	width: 225px;
 	vertical-align: middle;
@@ -52,13 +52,8 @@
 
 }
 
-.inline_right {
-	display: inline-block;
-	width: 225px;
-	vertical-align: middle;
-	font-size: 16px;
-	margin-left: 50px;
-	box-sizing: border-box;
+.inline_block_box:first-child {
+	margin-right: 50px;
 }
 
 
